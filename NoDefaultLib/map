@@ -1,0 +1,72 @@
+ NoDefaultLib
+
+ Timestamp is 564d0f9c (Wed Nov 18 15:54:04 2015)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 00001bafH .text$mn                CODE
+ 0003:00000000 00000188H .rdata                  DATA
+ 0003:00000188 00000000H .edata                  DATA
+ 0003:00000188 00000169H .rdata$zzzdbg           DATA
+ 0004:00000000 00000104H .data                   DATA
+ 0004:00000104 00000009H .bss                    DATA
+ 0005:00000000 0000003cH .idata$5                DATA
+ 0005:0000003c 00000014H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 0000003cH .idata$4                DATA
+ 0005:000000a0 0000015aH .idata$6                DATA
+ 0006:00000000 00000169H .rsrc$01                DATA
+ 0006:00000170 000002ccH .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       __load_config_used         00400000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        00401000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          00411000     <linker-defined>
+ 0002:000000f0       ??0A@@QAE@XZ               004110f0 f i Source.obj
+ 0002:00000120       ?T@@YAIPAUHINSTANCE__@@0PADH@Z 00411120 f   Source.obj
+ 0002:00000480       ?WinMainCRTStartup@@YAXXZ  00411480 f   Source.obj
+ 0002:000004d0       __alldiv                   004114d0 f   Source.obj
+ 0002:000005b0       __alldvrm                  004115b0 f   Source.obj
+ 0002:000006d0       __allmul                   004116d0 f   Source.obj
+ 0002:00000700       __allrem                   00411700 f   Source.obj
+ 0002:000007e0       __allshl                   004117e0 f   Source.obj
+ 0002:00000810       __allshr                   00411810 f   Source.obj
+ 0002:00000840       __aulldiv                  00411840 f   Source.obj
+ 0002:000008d0       __aulldvrm                 004118d0 f   Source.obj
+ 0002:00000990       __aullrem                  00411990 f   Source.obj
+ 0002:00000a30       __aullshr                  00411a30 f   Source.obj
+ 0002:00000a60       __except_handler3          00411a60 f   Source.obj
+ 0002:00000ad0       __ftol2                    00411ad0 f   Source.obj
+ 0002:00000ae0       __ftol2_sse                00411ae0 f   Source.obj
+ 0002:00000af0       _memcpy                    00411af0 f   Source.obj
+ 0002:00000b60       _memset                    00411b60 f   Source.obj
+ 0002:00000bb2       _ExitProcess@4             00411bb2 f   kernel32:KERNEL32.dll
+ 0002:00000bb8       _GetModuleHandleA@4        00411bb8 f   kernel32:KERNEL32.dll
+ 0002:00000bbe       _GetProcAddress@8          00411bbe f   kernel32:KERNEL32.dll
+ 0002:00000bc4       _LoadLibraryA@4            00411bc4 f   kernel32:KERNEL32.dll
+ 0003:00000000       ??_C@_0L@GGOPNPLL@msvcrt?4dll?$AA@ 00413000     Source.obj
+ 0003:00000010       ??_C@_0BB@LBLEIEEF@_except_handler3?$AA@ 00413010     Source.obj
+ 0003:00000028       __real@41cdcd6500000000    00413028     Source.obj
+ 0003:00000034       __real@447a0000            00413034     Source.obj
+ 0004:00000000       ___security_cookie         00414000     Source.obj
+ 0004:00000104       __fltused                  00414104     Source.obj
+ 0005:00000000       __imp__GetModuleHandleA@4  00415000     kernel32:KERNEL32.dll
+ 0005:00000004       __imp__GetProcAddress@8    00415004     kernel32:KERNEL32.dll
+ 0005:00000008       __imp__LoadLibraryA@4      00415008     kernel32:KERNEL32.dll
+ 0005:0000000c       __imp__ExitProcess@4       0041500c     kernel32:KERNEL32.dll
+ 0005:00000010       \177KERNEL32_NULL_THUNK_DATA 00415010     kernel32:KERNEL32.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_KERNEL32 0041503c     kernel32:KERNEL32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   00415050     kernel32:KERNEL32.dll
+
+ Exports
+
+  ordinal    name
+
