@@ -8,6 +8,8 @@
 #pragma comment(linker, "/STACK:167772160,167772160")
 #pragma comment( user, "Compiled on " __DATE__ " at " __TIME__ ) 
 
+#pragma comment(linker, "/ENTRY:WinMainCRTStartup")
+#pragma comment( linker, "/subsystem:windows" )
 
     /*
     initialization and assignment of large arrays / structures*/
@@ -81,7 +83,7 @@ UINT T( HINSTANCE Instance,
 }
 
 
-void WinMainCRTStartup()
+void __stdcall WinMainCRTStartup()
 {
     UINT Result = T( GetModuleHandle( 0 ), 0, 0, 0 );
     ExitProcess( Result );
