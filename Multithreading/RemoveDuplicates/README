@@ -1,0 +1,25 @@
+The application 'buggy.cxx' performs the following functions:
+
+a) It reads a list of ASCII words from STDIN, a word per input
+line, terminated by the word 'end'.
+
+b) It removes the duplicates, sorts the words alphabetically,
+and prints them with the number of how many times each word
+was encountered.
+
+c) Then it repeatedly asks the user to enter a word and tries to
+look it up in the word list which was entered initially. It
+terminates when it encounters EOF.
+
+The program has a number of bugs and design deficiencies. Please,
+fix all problems that you can find and make all the improvements
+you deem necessary so that the result satisfies your personal
+standards.
+
+The only restriction is that the multi-thread nature of the application
+and the overall structure MUST be preserved. (In other words,
+you shouldn't, for example, convert it to a single thread, even
+if you think it would work better in that way).
+
+The solution will not be checked for minor syntax errors and typos, so
+it is not required to actually compile.
